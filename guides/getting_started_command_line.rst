@@ -43,7 +43,7 @@ file called ``livingroom.yaml``:
 
 .. code-block:: bash
 
-    esphome wizard livingroom.yaml
+    esphome livingroom.yaml wizard
     # On Docker:
     docker run --rm -v "${PWD}":/config -it esphome/esphome wizard livingroom.yaml
 
